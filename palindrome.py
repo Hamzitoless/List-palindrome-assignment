@@ -71,7 +71,7 @@ def is_palindrome_using_stack(s: str):
     while not stack.is_empty() and not queue.is_empty():
         if stack.pop() !=queue.dequeue():
             return False
-
+        
     return True
 
 
